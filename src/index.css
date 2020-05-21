@@ -1,0 +1,162 @@
+.user_guide_box {
+    position: relative;
+  }
+  
+  .user_guide_shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    opacity: 0.3;
+    background-color: #282F38;
+    transition: all .3s ease-out;
+  }
+  .user_guide_content {
+    position: absolute;
+    display: block;
+    z-index: 999991;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    border-radius: 4px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .4);
+    transition: all .3s ease-out;
+    background-color: rgba(255, 255, 255, .9);
+
+  
+  }
+
+  .user_guide_tooltip {
+  
+    position: absolute;
+    z-index: 999995;
+    display: block;
+    opacity: 1;
+    padding: 15px 20px 30px 15px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .4);
+    transition: opacity .1s ease-out;
+    min-width: 250px;
+    max-width: 300px;
+    background-color: #3370ff;
+  }
+  /* .user_guide_tooltip div:nth-child(1) {
+    font: 14px/normal sans-serif;
+    color: #2d2d2d;
+    font-weight: 400;
+    zoom: 1;
+    margin-bottom: 0;
+  } */
+  
+  .user_guide_tooltip .user_guide_arrow {
+    position: absolute;
+    content: '';
+    border: 8px solid #fff;
+  }
+  
+  
+  
+  
+  .user_guide_bullet ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .user_guide_bulletul li {
+    list-style: none;
+  }
+  
+  .user_guide_bullet ul li div {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 2px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .user_guide_bullet .user_active_dot {
+    background-color: #fff;
+  }
+  
+  .user_button_group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
+  .user_btn {
+    background-color: #fff;
+    /* border-color: #409eff; */
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #3370ff;
+    line-height: 1;
+    font-size: 13px;
+    outline: none;
+    margin: 0;
+    padding: 4px 7px;
+  }
+  
+  .user_btn_total {
+    border-radius: 3px;
+  }
+  
+  .user_btn_left {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-right-color: hsla(0, 0%, 100%, .5)
+  }
+  
+  .user_btn_disabled {
+    background-color: #3370ff;
+    /* border-color: #a0cfff; */
+    cursor: not-allowed;
+    color: #fff;
+  }
+  
+  .user_btn_right {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  
+  .user_guide_icon_num {
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    z-index: 999998;
+    color: #fff;
+    /* background: linear-gradient(to bottom,#409EFF 0%,#007fff 100%); */
+    background-color: #3370ff;
+    font-weight: 6000;
+    padding: 1px;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Arial, verdana, tahoma;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .4);
+    transition: all .3s ease-out;
+  }
+  
+  .user_tip_title {
+    color: #fff;
+    font: 16px/normal sans-serif;
+    font-weight: bold;
+    zoom: 1;
+    margin-bottom: 25px;
+  }
+  
+  .user_tip_desc {
+    color: #fff;
+    font: 14px/normal sans-serif;
+    font-weight: 400;
+    zoom: 1;
+    margin-bottom: 0;
+  }
+  
+  .user_guide_bullet ul li {
+    list-style-type: none;
+  }
